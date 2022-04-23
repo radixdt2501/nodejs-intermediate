@@ -46,6 +46,6 @@ module.exports = (app) => {
     app.post('/login', users.logIn);
 
     // upload file into s3 object
-    app.post("/uploadFile", upload.single('photos'), users.fileuplod);
+    // app.post("/uploadFile", upload.single('photos'), users.fileuplod);
 
 }
